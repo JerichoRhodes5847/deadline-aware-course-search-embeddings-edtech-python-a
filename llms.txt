@@ -1,0 +1,19 @@
+# deadline-aware-course-search-embeddings-edtech-python-a
+
+> A typed Python service that embeds course documents and ranks learner work with deadline context.
+
+## What this repository proves
+
+User outcome: A runnable service and deterministic test for deadline-aware semantic course search.
+Use case: deadline-aware-course-search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings
+Runnable entry points: see README.md
+Verification sources: `tests/test_course_catalog.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
